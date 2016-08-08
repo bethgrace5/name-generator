@@ -1,0 +1,30 @@
+
+<div class="container-fluid">
+  <div class="panel panel-default">
+
+    <div class="panel-heading">
+      <div class="row">
+        <div class="col-sm-4 ">
+          <input type="file" class="btn btn-default"
+          onChange=" angular.element(this).scope().readFile(this.files[0]);"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-body">
+      <div class="row" ng-repeat = "d in data">
+        <div class="col-sm-2">
+          {{d.name}}
+        </div>
+        <div class="col-sm-2">
+          {{d.reading}}
+        </div>
+        <div class="col-sm-2">
+          {{d.math}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+

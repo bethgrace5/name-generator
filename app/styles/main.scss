@@ -1,0 +1,52 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body {
+  background-color:#f0f0f5;
+}
+
+.data-heading {
+  color: #4d0099;
+  font-size:1.2em;
+}
+.data-row {
+  border-bottom: 2px solid #d9d9d9;
+}
+.data-container {
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 2px solid grey;
+  padding-left: 20px;
+  background-color:white;
+}
+.panel {
+  margin-top: 20px;
+  min-height: 300px;
+}
+.panel-heading {
+  min-height: 60px;
+}
+
+.panel{
+}
+.file-input {
+  border: 1px solid grey;
+  margin:0;
+  padding:0;
+  border-radius:5px;
+}
+
+.add-active {
+  background-color: #ccff66;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s ease;
+}
+.remove-active {
+  background-color:none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.8s ease;
+}
+
+
